@@ -1,0 +1,8 @@
+---
+- name: Test Play
+  hosts: all
+  tasks:
+  - name: "Demo string"
+    debug:
+      msg: "Heya"
+
