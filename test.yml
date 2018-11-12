@@ -6,3 +6,11 @@
     debug:
       msg: "Heya"
 
+  - name: "whoami"
+    shell: "whoami"
+    register: out
+
+  - name: "whoami out string"
+    debug:
+      msg: "{{ out }}"
+
