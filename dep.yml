@@ -7,17 +7,29 @@
       resource_group_name: djjj
       template_link: "https://raw.githubusercontent.com/medhanoo/tower-test/master/temp.json"
       parameters:
-        databaseName: abc
-        maxSizeBytes: 2684354560
-        skuName: S1
-        sampleName: ""
-        zoneRedundant: False
-        licenseType: ""
-        location: "Central US"
-        EngagementId: "xx"
-        Owner: "xx"
-        DeploymentID: "xx"
-        serverName: "asasa"
-        tier: "standard"
+        databaseName:
+          value: abc
+        maxSizeBytes: 
+          value: 268435456000
+        skuName: 
+          value: S1
+        sampleName: 
+          value: ""
+        zoneRedundant: 
+          value: False
+        licenseType: 
+          value: ""
+        location: 
+          value: "Central US"
+        EngagementId: 
+          value: "xx"
+        Owner:  
+          value: "xx"
+        DeploymentID: 
+          value: "xx"
+        serverName: 
+          value: "asasa"
+        tier: 
+          value: "standard"
         
         
