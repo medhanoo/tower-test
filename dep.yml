@@ -23,10 +23,6 @@
           value: "Central US"
         EngagementId: 
           value: "xx"
-        Owner:  
-          value: "xx"
-        DeploymentID: 
-          value: "xx"
         serverName: 
           value: "asasa"
         tier: 
