@@ -7,10 +7,7 @@
         "location": {
 			"type": "string"
 		},
-       
-        "siteName": {
-			"type": "string"
-        },
+      
         "databaseName": {
 			"type": "string"
         },
