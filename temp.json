@@ -68,8 +68,8 @@
 
 			},
 			"dependsOn": [
-				"[parameters('serverName')]"
-			],
+            "[concat('Microsoft.Sql/servers/', parameters('serverName'))]"
+		  ],
 			"properties": {
 				"collation": "SQL_Latin1_General_CP1_CI_AS",
 				"maxSizeBytes": "[parameters('maxSizeBytes')]",
