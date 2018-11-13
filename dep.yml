@@ -8,7 +8,7 @@
       template_link: "https://raw.githubusercontent.com/medhanoo/tower-test/master/temp.json"
       parameters:
         databaseName:
-          value: abc
+          value: "sqleydb"
         maxSizeBytes: 
           value: 268435456000
         skuName: 
@@ -24,7 +24,7 @@
         EngagementId: 
           value: "xx"
         serverName: 
-          value: "asasa"
+          value: "sqlserverey"
         tier: 
           value: "standard"
         
