@@ -7,9 +7,6 @@
         "location": {
 			"type": "string"
 		},
-		"sku": {
-			"type": "string"
-        },
         "kind": {
 			"type": "string"
 		},
