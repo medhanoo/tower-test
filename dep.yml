@@ -8,7 +8,7 @@
       template_link: "https://raw.githubusercontent.com/medhanoo/tower-test/master/temp.json"
       parameters:
         databaseName: abc
-        maxSizeBytes: 268435456000
+        maxSizeBytes: 2684354560
         skuName: S1
         sampleName: ""
         zoneRedundant: False
