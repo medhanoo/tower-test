@@ -12,7 +12,7 @@
         maxSizeBytes: 
           value: 268435456000
         skuName: 
-          value: S1
+          value: "S1"
         sampleName: 
           value: ""
         zoneRedundant: 
