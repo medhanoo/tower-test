@@ -1,0 +1,23 @@
+---
+- host: localhost
+  tasks:
+  - name: "hello"
+    azure_rm_deployment:
+      state: present
+      resource_group_name: djjj
+      template_link: "https://raw.githubusercontent.com/medhanoo/tower-test/master/temp.json"
+      parameters:
+        databaseName: abc
+        maxSizeBytes: 268435456000
+        skuName: S1
+        sampleName: ""
+        zoneRedundant: False
+        licenseType: ""
+        location: "Central US"
+        EngagementId: "xx"
+        Owner: "xx"
+        DeploymentID: "xx"
+        serverName: "asasa"
+        tier: "standard"
+        
+        
